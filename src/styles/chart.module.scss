@@ -1,0 +1,21 @@
+/* src/styles/chart.module.scss */
+.chartmain {
+    border-radius: 16px;
+    background: #F8F4EA;
+    width: 100%;
+    overflow-x: auto; 
+    height: 100vh;/* Enable horizontal scrolling for small screens */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+.chart2{
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}

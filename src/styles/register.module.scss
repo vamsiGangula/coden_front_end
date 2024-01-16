@@ -1,0 +1,38 @@
+.registermain {
+//   height: 100vh;
+  border-radius: 16px;
+  background: #f8f4ea;
+}
+.reg1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+  padding-top: 48px;
+}
+.reg2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 63px;
+}
+.reg3{
+    color: #000;
+text-align: center;
+font-family: Inter;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.reg4{
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.reg5{
+margin-top: 12px !important;
+}
