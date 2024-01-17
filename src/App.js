@@ -1,18 +1,17 @@
-import logo from './logo.svg';
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './App.css';
 import Register from './pages/register';
 import Charts from './pages/charts';
 
 function App() {
-
-
   return (
-    <div>
-      {/* <Register/> */}
-      {/* <Charts /> */}
-      <h1>Hello</h1>
-
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Register />} />
+        <Route path="/charts" element={<Charts />} />
+      </Routes>
+    </Router>
   );
 }
 
