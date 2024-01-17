@@ -6,12 +6,15 @@ import Charts from './pages/charts';
 
 function App() {
   return (
-    <Router>
-      <Routes>
-        <Route path="/" element={<Register />} />
-        <Route path="/charts" element={<Charts />} />
-      </Routes>
-    </Router>
+    // <Router>
+    //   <Routes>
+    //     <Route path="/" element={<Register />} />
+    //     <Route path="/charts" element={<Charts />} />
+    //   </Routes>
+    // </Router>
+    <>
+    <h1>Register</h1>
+    </>
   );
 }
 
