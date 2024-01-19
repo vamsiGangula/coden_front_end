@@ -33,6 +33,13 @@ function Register() {
       newErrors.user_phone = "Valid 10-digit phone number is required";
       valid = false;
     }
+    if (!newDataPoint.x) {
+      newErrors.x = "Latitude is required";
+      valid = false;
+    }   if (!newDataPoint.y) {
+      newErrors.y = "Longitude is required";
+      valid = false;
+    }
 
     // Add validation for x and y coordinates if needed
 
@@ -131,6 +138,8 @@ function Register() {
                     name="x"
                     value={newDataPoint.x}
                     onChange={handleInputChange}
+                    error={Boolean(errors.x)}
+                    helperText={errors.x}
                   />
                 </Grid>
                 <Grid item xs={12} className={Styles.reg5}>
@@ -141,6 +150,8 @@ function Register() {
                     name="y"
                     value={newDataPoint.y}
                     onChange={handleInputChange}
+                    error={Boolean(errors.y)}
+                    helperText={errors.y}
                   />
                 </Grid>
               </Grid>
